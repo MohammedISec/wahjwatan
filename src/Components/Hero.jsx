@@ -3,7 +3,7 @@ import bg from "../assets/bg.jpg";
 const Hero = () => {
   return (
     <div
-      className="relative w-full h-180 md:h-150 screen-max-width text-center bg-gray-900 text-white py-10 px-5"
+      className="relative w-full h-full md:h-160 screen-max-width text-center bg-gray-900 text-white py-10 px-5"
       dir="rtl"
     >
       <div className="absolute inset-0 h-full">
