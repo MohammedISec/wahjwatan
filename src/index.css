@@ -1,6 +1,7 @@
 @import "tailwindcss";
 a:hover {
   color: orange;
+
   transition: 0.3s;
   cursor: pointer;
 }

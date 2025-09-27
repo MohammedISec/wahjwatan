@@ -3,7 +3,7 @@ import bg from "../assets/bg.jpg";
 const Hero = () => {
   return (
     <div
-      className="relative w-full h-180 md:h-full screen-max-width text-center bg-gray-900 text-white py-10 px-5"
+      className="relative w-full h-180 md:h-150 screen-max-width text-center bg-gray-900 text-white py-10 px-5"
       dir="rtl"
     >
       <div className="absolute inset-0 h-full">
@@ -14,7 +14,7 @@ const Hero = () => {
         />
         {/* <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent" /> */}
       </div>
-      <div className="relative  z-10 w-full h-full md:flex md:justify-around justify-items-center items-center md:h-100 mb-6">
+      <div className="relative  z-10 w-full h-full md:mt-10 md:flex md:justify-around justify-items-center items-center md:h-100 mb-6">
         <div className=" w-full  max-w-lg">
           <p className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
             استثمر في عقارك المثالي مع وهج وطن العقارية
