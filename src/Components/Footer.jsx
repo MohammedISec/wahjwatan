@@ -131,6 +131,16 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <div className="w-full bg-black/20 text-center text-white py-4" dir="rtl">
+        &copy; {new Date().getFullYear()} جميع الحقوق محفوظة - وهج وطن العقارية
+        | بواسطه{" "}
+        <a
+          href="https://Mohammed-mustafa.netlify.app"
+          className="font-bold underline"
+        >
+          محمد مصطفى
+        </a>
+      </div>
     </section>
   );
 };

@@ -1,6 +1,7 @@
 import Logo from "../assets/logo.png";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
+import PhoneIcon from "@mui/icons-material/Phone";
 const Navbar = () => {
   return (
     <header
@@ -17,7 +18,11 @@ const Navbar = () => {
             <li> اتصل بنا:</li>
           </ul>
           <p>
-            <a>00920002164</a>
+            <a>
+              {" "}
+              00920002164
+              <PhoneIcon style={{ fontSize: "30px", color: "white" }} />
+            </a>
           </p>
         </div>
         <div className="md:hidden  mr-auto hover:text-amber-100 cursor-pointer">
