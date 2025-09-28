@@ -3,7 +3,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import XIcon from "@mui/icons-material/X";
-import LocationPinIcon from "@mui/icons-material/LocationPin";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { gsap } from "gsap";
@@ -115,7 +115,7 @@ const Footer = () => {
           <div className="w-13 h-1 bg-orange-600 mx-0 mb-2"></div>
           <ul>
             <li className="flex items-center mt-5 gap-2">
-              <LocationPinIcon
+              <LocationOnIcon
                 style={{ fontSize: "30px", color: "orangered" }}
               />
               <span>
