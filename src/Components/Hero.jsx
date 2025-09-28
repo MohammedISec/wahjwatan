@@ -13,7 +13,6 @@ const Hero = () => {
           alt="Background"
         />
         <div className="absolute inset-0 bg-black/40"></div>
-        {/* <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent" /> */}
       </div>
       <div className="relative  z-10 w-full h-full md:mt-10 md:flex md:justify-around justify-items-center items-center md:h-100 mb-6">
         <div className=" w-full max-w-lg">

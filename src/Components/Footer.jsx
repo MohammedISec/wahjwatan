@@ -13,9 +13,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
-  // useGSAP(() => {
-  //   gsap.fromTo(".upper", { opacity: 0, y: 50 });
-  // }, []);
   useGSAP(() => {
     gsap.fromTo(
       "#upper",
@@ -82,28 +79,16 @@ const Footer = () => {
           <div className="w-13 h-1 bg-orange-600 md:mx-0 mb-2"></div>
           <ul className="mt-4 md:space-y-5 space-y-2">
             <li>
-              <a href="#home">
-                {/* <i className="fas fa-angle-left"></i> */}
-                {">"} الرئيسية
-              </a>
+              <a href="#home">{">"} الرئيسية</a>
             </li>
             <li>
-              <a href="#home">
-                {/* <i className="fas fa-angle-left"></i> */}
-                {">"} من نحن
-              </a>
+              <a href="#home">{">"} من نحن</a>
             </li>
             <li>
-              <a href="#home">
-                {/* <i className="fas fa-angle-left"></i> */}
-                {">"} خدماتنا
-              </a>
+              <a href="#home">{">"} خدماتنا</a>
             </li>
             <li>
-              <a href="#home">
-                {/* <i className="fas fa-angle-left"></i> */}
-                {">"} اتصل بنا
-              </a>
+              <a href="#home">{">"} اتصل بنا</a>
             </li>
           </ul>
         </div>
@@ -112,28 +97,16 @@ const Footer = () => {
           <div className="w-13 h-1 bg-orange-600 mx-0 mb-2"></div>
           <ul className="mt-4 md:space-y-5 space-y-2">
             <li>
-              <a href="#home">
-                {/* <i className="fas fa-angle-left"></i> */}
-                {">"} إدارة المشاريع
-              </a>
+              <a href="#home">{">"} إدارة المشاريع</a>
             </li>
             <li>
-              <a href="#home">
-                {/* <i className="fas fa-angle-left"></i> */}
-                {">"} الأراضي الصناعية
-              </a>
+              <a href="#home">{">"} الأراضي الصناعية</a>
             </li>
             <li>
-              <a href="#home">
-                {/* <i className="fas fa-angle-left"></i> */}
-                {">"} إسكان العماله
-              </a>{" "}
+              <a href="#home">{">"} إسكان العماله</a>{" "}
             </li>
             <li>
-              <a href="#home">
-                {/* <i className="fas fa-angle-left"></i> */}
-                {">"} المشاريع التجارية
-              </a>
+              <a href="#home">{">"} المشاريع التجارية</a>
             </li>
           </ul>
         </div>
