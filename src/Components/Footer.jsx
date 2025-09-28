@@ -6,35 +6,10 @@ import XIcon from "@mui/icons-material/X";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import { gsap } from "gsap";
-import { useGSAP } from "@gsap/react";
+
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
-
 const Footer = () => {
-  useGSAP(() => {
-    gsap.fromTo(
-      "#upper",
-      {
-        y: 70,
-        opacity: 0,
-      },
-      {
-        y: 0,
-        opacity: 1,
-        duration: 1,
-        scrollTrigger: {
-          trigger: "#upper",
-          start: "top 80%",
-          end: "bottom 100%",
-          scrub: true,
-          // markers: true,
-        },
-      }
-    );
-  }, []);
-
   return (
     <section className=" w-full h-full bg-teal-600 ">
       <div
