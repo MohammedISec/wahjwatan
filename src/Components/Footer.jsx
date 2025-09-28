@@ -6,14 +6,46 @@ import XIcon from "@mui/icons-material/X";
 import LocationPinIcon from "@mui/icons-material/LocationPin";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 const Footer = () => {
+  // useGSAP(() => {
+  //   gsap.fromTo(".upper", { opacity: 0, y: 50 });
+  // }, []);
+  useGSAP(() => {
+    gsap.fromTo(
+      "#upper",
+      {
+        y: 70,
+        opacity: 0,
+      },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 1,
+        scrollTrigger: {
+          trigger: "#upper",
+          start: "top 80%",
+          end: "bottom 100%",
+          scrub: true,
+          // markers: true,
+        },
+      }
+    );
+  }, []);
+
   return (
-    <section className="w-full h-full bg-teal-600 ">
+    <section className=" w-full h-full bg-teal-600 ">
       <div
-        className="screen-max-width flex flex-col md:flex-row justify-around  py-10 px-5 gap-10"
+        id="upper"
+        className="upper screen-max-width flex flex-col md:flex-row justify-around  py-10 px-5 gap-10"
         dir="rtl"
       >
-        <div className="text-white  text-right">
+        <div className=" text-white  text-right">
           <h2 className="text-2xl font-bold mb-4">عن الشركة</h2>
           <div className="w-13 h-1 bg-orange-600  md:mx-0 mb-2"></div>
           <p className=" w-full md:w-80">
