@@ -7,8 +7,6 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
 const Footer = () => {
   return (
     <section className=" w-full h-full bg-teal-600 ">
